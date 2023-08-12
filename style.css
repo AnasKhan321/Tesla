@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70" );
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+
+}
+
+header{
+	display: flex;
+/*	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70" );*/
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	height: 15vh;
+	width: 100vw;
+	position: sticky;
+	top: 0;
+}
+header img{
+	margin: 10px;
+}
+
+
+p{
+	margin-left: 40px;
+	margin-top: 30px;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+.s{
+	margin-left: 400px;
+}
+
+.a{
+	margin-left: 300px;
+}
+.Y{
+	display: inline-block;
+	justify-content: center;
+/*	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70" );*/
+	text-align: center;
+	height: 95vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 80vh;
+
+}
+.u{
+	text-decoration: underline;
+}
+.bold{
+	font-size: 45px;
+	margin-top: 90px;
+
+}
+.second{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.custom{
+	font-family: 'Roboto Condensed', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 400px;
+/*	margin-left: 400px;*/
+	width: 150px;
+	height: 20px;
+	padding: auto;
+	color: white;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 23px;
+	word-spacing: 2px;
+
+}
+
+.inventory{
+	
+	margin-top: 400px;
+	border-radius: 10px;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 150px;
+	height: 20px;
+	word-spacing: 2px;
+	padding: auto;
+	color: black;
+	background-color: darkgrey;
+	border: 2px solid silver;
+	padding: 20px;
+	font-size: 23px;
+}
+
+.Model3{
+
+	display: inline-block;
+	justify-content: center;
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD" );
+	text-align: center;
+	height: 95vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 100vh;
+	margin-top: 20px;
+}
+
+.S{
+	display: inline-block;
+	justify-content: center;
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/2056ad87-6a25-403c-89f3-35fe291bdb65/bvlatuR/std/2880x1800/Homepage-Model-S-Desktop-LHD?quality=auto-medium&amp;format=auto" );
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 100vh;
+	margin-top: 20px;
+}
+
+.X{
+	display: inline-block;
+	justify-content: center;
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/17ecbd59-0e37-4add-8aca-f905d12c02e4/bvlatuR/std/2880x1800/Homepage-Model-X-Desktop-LHD?quality=auto-medium&amp;format=auto" );
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 100vh;
+	margin-top: 20px;
+}
+
+.panels{
+	display: inline-block;
+	justify-content: center;
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D" );
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 100vh;
+	margin-top: 20px;
+}
+.roof{
+	display: inline-block;
+	justify-content: center;
+	background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global?quality=auto-medium&format=auto" );
+	text-align: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: 100vw , 100vh;
+	margin-top: 20px;
+}
+
+@keyframes ana{
+	0%{
+		transform: rotate(0deg);
+	}
+
+	50%{
+		transform: rotate(180deg);
+	}
+
+	100%{
+		transform: rotate(360deg);
+	}
+}
